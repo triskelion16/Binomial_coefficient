@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Binomial_coefficient</string>
+    <string name="binomial_coefficient_symbol">Binomial coefficient symbol</string>
+    <string name="calculate_binomial_coefficient">Calculate Binomial coefficient</string>
+    <string name="n">n:</string>
+    <string name="_1">1</string>
+    <string name="k">k:</string>
+    <string name="_1">1</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result:</string>
+    <string name="_1">1</string>
 </resources>

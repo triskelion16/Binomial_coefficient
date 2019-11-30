@@ -12,13 +12,107 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:adjustViewBounds="true"
-        android:contentDescription="Binomial coefficient symbol" />
+        android:contentDescription="@string/binomial_coefficient_symbol" />
 
     <TextView
+        android:id="@+id/mainTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/symbolView"
+        android:layout_marginTop="25dp"
+        android:text="@string/calculate_binomial_coefficient"
+        android:textSize="20sp"
+        android:textColor="#444"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainTextView"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/n"
+        android:textSize="26sp"
+        android:textColor="#444"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/nEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainTextView"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/nTextView"
+        android:textAlignment="center"
+        android:ems="2"
+        android:inputType="number"
+        android:maxLength="2"
+        android:text="@string/_1"
+        android:textSize="26sp"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:id="@+id/kTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nTextView"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/k"
+        android:textSize="26sp"
+        android:textColor="#444"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/kEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nTextView"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/kTextView"
+        android:textAlignment="center"
+        android:ems="2"
+        android:inputType="number"
+        android:maxLength="2"
+        android:text="@string/_1"
+        android:textSize="26sp"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kTextView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/calculate"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculateButton"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/result"
+        android:textSize="24sp"
+        android:textColor="#444"/>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculateButton"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@id/resultTextView"
+        android:text="@string/_1"
+        android:textSize="24sp"
+        android:textColor="#444"
+        android:textStyle="bold" />
 
 </RelativeLayout>
