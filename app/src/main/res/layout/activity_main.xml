@@ -8,13 +8,13 @@
 
     <ImageView
         android:id="@+id/symbolView"
-        android:src="@drawable/newton_symbol"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="253dp"
+        android:layout_height="84dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:adjustViewBounds="true"
-        android:contentDescription="@string/binomial_coefficient_symbol" />
+        android:contentDescription="@string/binomial_coefficient_symbol"
+        android:src="@drawable/binomial_coefficient" />
 
     <TextView
         android:id="@+id/mainTextView"
@@ -51,8 +51,7 @@
         android:ems="2"
         android:inputType="number"
         android:maxLength="2"
-        android:hint="@string/_1_1"
-        android:textColorHint="#FFF"
+        android:text="@string/_1_1"
         android:textSize="26sp"
         android:textColor="#FFF"
         android:importantForAutofill="no"/>
@@ -80,8 +79,7 @@
         android:ems="2"
         android:inputType="number"
         android:maxLength="2"
-        android:hint="@string/_1_2"
-        android:textColorHint="#FFF"
+        android:text="@string/_1_2"
         android:textSize="26sp"
         android:textColor="#FFF"
         android:importantForAutofill="no"/>
