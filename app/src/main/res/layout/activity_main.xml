@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/symbolView"
-        android:src="@drawable/symbolNewton"
+        android:src="@drawable/newton_symbol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -52,6 +52,7 @@
         android:inputType="number"
         android:maxLength="2"
         android:hint="@string/_1_1"
+        android:textColorHint="#FFF"
         android:textSize="26sp"
         android:textColor="#FFF"
         android:importantForAutofill="no"/>
@@ -80,6 +81,7 @@
         android:inputType="number"
         android:maxLength="2"
         android:hint="@string/_1_2"
+        android:textColorHint="#FFF"
         android:textSize="26sp"
         android:textColor="#FFF"
         android:importantForAutofill="no"/>
@@ -115,6 +117,7 @@
         android:layout_below="@id/calculateButton"
         android:layout_marginTop="25dp"
         android:layout_toEndOf="@id/resultTextView"
+        android:layout_marginStart="10dp"
         android:text="@string/_1_3"
         android:textSize="24sp"
         android:textColor="#FFF"
