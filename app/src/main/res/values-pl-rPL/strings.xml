@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Symbol Newtona</string>
+    <string name="_1_1">1</string>
+    <string name="_1_2">1</string>
+    <string name="_1_3">1</string>
+    <string name="k">k:</string>
+    <string name="n">n:</string>
+    <string name="result">Wynik:</string>
+    <string name="calculate_binomial_coefficient">Oblicz Symbol Newtona</string>
+    <string name="calculate">Oblicz</string>
+    <string name="binomial_coefficient_symbol">Symbol Newtona</string>
+    <string name="condition_n_k"><![CDATA[Warunek: n > k]]></string>
+</resources>

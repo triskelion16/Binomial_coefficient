@@ -17,12 +17,23 @@
         android:src="@drawable/binomial_coefficient" />
 
     <TextView
-        android:id="@+id/mainTextView"
+        android:id="@+id/conditionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/symbolView"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/condition_n_k"
+        android:textSize="15sp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/conditionTextView"
+        android:layout_marginTop="20dp"
         android:text="@string/calculate_binomial_coefficient"
         android:textSize="20sp"
         android:textColor="#FFF"

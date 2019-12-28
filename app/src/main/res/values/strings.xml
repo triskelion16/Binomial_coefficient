@@ -1,12 +1,13 @@
 <resources>
-    <string name="app_name">Symbol Newtona</string>
-    <string name="calculate_binomial_coefficient">Oblicz Symbol Newtona</string>
+    <string name="app_name">Binomial Coefficient</string>
+    <string name="calculate_binomial_coefficient">Calculate Binomial Coefficient</string>
     <string name="n">n:</string>
     <string name="_1_1">1</string>
     <string name="k">k:</string>
     <string name="_1_2">1</string>
-    <string name="calculate">Oblicz</string>
-    <string name="result">Wynik: </string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result:</string>
     <string name="_1_3">1</string>
     <string name="binomial_coefficient_symbol">Binomial Coefficient Symbol</string>
+    <string name="condition_n_k"><![CDATA[Condition: n > k]]></string>
 </resources>
